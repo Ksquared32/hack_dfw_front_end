@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlJbPFduIYtoLzwST68uhz_Y.woff2) format('woff2');
+}
+
+html{
+	background-color: #f5f7f9;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	background-color: #58D2A5;
+	border-bottom: 2px solid white;
+	padding: 2px;
+}
+
+.header {
+	font-family: Source Sans Pro;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin: 10px;
+}
+
+.company_header {
+	font-family: Source Sans Pro;
+	margin-top: 145px;
+	margin-left: 95px;
+	font-size: 40px;
+}
+.card_container {
+	display: block;
+	margin: 50px 95px;
+
+}
+.card {
+	width: 400px;
+	background-color: white;
+	display: inline-block;
+	box-shadow: 3px 3px 3px grey;
+	padding-top: 8px;
+	margin: 0px 6px;
+}
+
+.logo {
+	display: block;
+	margin: 20px auto;
+}
+
+div img {
+	height: 92px;
+}
+.recommend_btn {
+	background-color: #ff0040;
+	box-shadow: 0px 5px 5px grey;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+div h2 {
+	color:white;
+	font-family: Source Sans Pro;
+	text-align: center;
+}
+
+.popup {
+	position: absolute;
+	top: 45vh;
+	left: 45vw;
+	background-color: white;
+}
+
+.dark_screen {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	background-color: black;
+	top: 0;
+	left: 0;
+	opacity: .5;
+}
